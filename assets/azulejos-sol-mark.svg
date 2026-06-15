@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Azulejos Sol demo">
+  <rect width="128" height="128" rx="34" fill="#15130F"/>
+  <circle cx="64" cy="64" r="42" fill="url(#g)" opacity=".95"/>
+  <path d="M35 67.5C47.5 42 80.5 42 93 67.5C80.5 54 47.5 54 35 67.5Z" fill="#FFF7EA" opacity=".92"/>
+  <path d="M31 76C48 61 80 61 97 76" stroke="#15130F" stroke-width="7" stroke-linecap="round" opacity=".22"/>
+  <circle cx="64" cy="64" r="15" fill="#15130F" opacity=".92"/>
+  <defs>
+    <linearGradient id="g" x1="26" y1="24" x2="104" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3D9A3"/>
+      <stop offset=".48" stop-color="#BD704D"/>
+      <stop offset="1" stop-color="#8A5E39"/>
+    </linearGradient>
+  </defs>
+</svg>

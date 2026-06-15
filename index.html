@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azulejos Sol · Showroom digital premium</title>
+  <meta name="description" content="Demo conceptual de showroom digital premium para Azulejos Sol: azulejos, pavimentos, baños, cocinas y soluciones para profesionales.">
+  <meta name="theme-color" content="#10100e">
+  <meta property="og:title" content="Azulejos Sol · Showroom digital premium">
+  <meta property="og:description" content="Una experiencia full-width, responsive e inmersiva para inspirar reformas y captar presupuestos.">
+  <meta property="og:type" content="website">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HomeAndConstructionBusiness",
+    "name":"Azulejos Sol",
+    "description":"Demo conceptual de showroom digital para exposición de azulejos, pavimentos, baños y revestimientos.",
+    "areaServed":"Ajalvir, Madrid",
+    "url":"https://azulejossol.es/"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" data-header>
+    <div class="brand" aria-label="Azulejos Sol">
+      <img src="assets/azulejos-sol-mark.svg" alt="" width="42" height="42">
+      <span>
+        <strong>Azulejos Sol</strong>
+        <small>Showroom cerámico</small>
+      </span>
+    </div>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="principal-nav" data-nav-toggle>
+      <span></span><span></span><span></span>
+      <em>Menú</em>
+    </button>
+
+    <nav id="principal-nav" class="principal-nav" data-nav>
+      <a href="#ambientes">Ambientes</a>
+      <a href="#categorias">Catálogo</a>
+      <a href="#profesionales">Profesionales</a>
+      <a href="#showroom">Showroom</a>
+      <a href="#contacto" class="nav-cta">Pedir presupuesto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-noise" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal">Exposición en Ajalvir · Reforma · Obra nueva · Profesionales</p>
+        <h1 id="hero-title" class="reveal">Transforma tu baño, cocina o vivienda con materiales que se ven, se tocan y se eligen bien.</h1>
+        <p class="hero-copy reveal">Un showroom digital premium para inspirar, comparar estilos y pedir presupuesto sin llamadas innecesarias. Pensado para particulares, reformistas, interioristas y constructoras.</p>
+
+        <div class="hero-actions reveal">
+          <a href="#contacto" class="btn btn-primary">Pedir presupuesto</a>
+          <a href="#ambientes" class="btn btn-secondary">Ver ambientes</a>
+        </div>
+
+        <div class="trust-strip reveal" aria-label="Señales de confianza">
+          <div><strong>40+</strong><span>años de experiencia</span></div>
+          <div><strong>360º</strong><span>baño, cocina y pavimento</span></div>
+          <div><strong>Pro</strong><span>atención a profesionales</span></div>
+        </div>
+      </div>
+
+      <div class="hero-gallery reveal" aria-label="Ambientes destacados">
+        <article class="hero-tile tile-large">
+          <span>Baños con carácter</span>
+        </article>
+        <article class="hero-tile tile-mid">
+          <span>Pavimentos porcelánicos</span>
+        </article>
+        <article class="hero-tile tile-small">
+          <span>Cocinas limpias y duraderas</span>
+        </article>
+      </div>
+
+      <a class="scroll-cue" href="#ambientes" aria-label="Bajar a ambientes">
+        <span></span>
+        Explorar
+      </a>
+    </section>
+
+    <section id="ambientes" class="immersive-strip section-shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">Inspiración antes de visitar la exposición</p>
+        <h2>La web como escaparate vivo, no como folleto estático.</h2>
+        <p>Ambientes grandes, categorías claras y llamadas a la acción visibles para que el cliente llegue con una idea definida y ganas de pedir presupuesto.</p>
+      </div>
+
+      <div class="scene-grid">
+        <article class="scene-card reveal scene-bath">
+          <div>
+            <span>Baño</span>
+            <h3>Texturas minerales, luz cálida y sensación hotel boutique.</h3>
+            <a href="#contacto">Quiero algo así</a>
+          </div>
+        </article>
+        <article class="scene-card reveal scene-kitchen">
+          <div>
+            <span>Cocina</span>
+            <h3>Revestimientos resistentes para uso diario sin perder diseño.</h3>
+            <a href="#contacto">Consultar opciones</a>
+          </div>
+        </article>
+        <article class="scene-card reveal scene-floor">
+          <div>
+            <span>Pavimento</span>
+            <h3>Continuidad visual para interior, exterior y espacios abiertos.</h3>
+            <a href="#contacto">Pedir asesoramiento</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="categorias" class="catalog section-shell">
+      <div class="section-head compact reveal">
+        <p class="eyebrow">Catálogo visual</p>
+        <h2>Categorías pensadas para cómo busca el cliente, no para cómo se archiva el producto.</h2>
+      </div>
+
+      <div class="filter-bar reveal" aria-label="Filtros de catálogo">
+        <button class="filter-btn is-active" data-filter="todo">Todo</button>
+        <button class="filter-btn" data-filter="bano">Baños</button>
+        <button class="filter-btn" data-filter="cocina">Cocinas</button>
+        <button class="filter-btn" data-filter="pavimento">Pavimentos</button>
+        <button class="filter-btn" data-filter="profesional">Profesionales</button>
+      </div>
+
+      <div class="catalog-grid" data-catalog>
+        <article class="product-card reveal" data-category="bano">
+          <div class="product-media media-bath-1"></div>
+          <div class="product-body">
+            <span>Baños</span>
+            <h3>Revestimiento efecto piedra</h3>
+            <p>Para baños contemporáneos, cálidos y fáciles de mantener.</p>
+            <button class="ghost-btn" data-open-form data-interest="Revestimiento efecto piedra">Solicitar presupuesto</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="pavimento">
+          <div class="product-media media-floor-1"></div>
+          <div class="product-body">
+            <span>Pavimentos</span>
+            <h3>Porcelánico gran formato</h3>
+            <p>Continuidad visual para salones, cocinas y zonas de paso.</p>
+            <button class="ghost-btn" data-open-form data-interest="Porcelánico gran formato">Consultar disponibilidad</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="cocina">
+          <div class="product-media media-kitchen-1"></div>
+          <div class="product-body">
+            <span>Cocinas</span>
+            <h3>Revestimiento técnico antisalpicaduras</h3>
+            <p>Solución estética y resistente para cocinas familiares.</p>
+            <button class="ghost-btn" data-open-form data-interest="Revestimiento de cocina">Pedir orientación</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="bano">
+          <div class="product-media media-bath-2"></div>
+          <div class="product-body">
+            <span>Equipamiento baño</span>
+            <h3>Mamparas, muebles y grifería</h3>
+            <p>Una selección completa para cerrar la reforma del baño.</p>
+            <button class="ghost-btn" data-open-form data-interest="Equipamiento completo de baño">Ver opciones</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="profesional">
+          <div class="product-media media-pro-1"></div>
+          <div class="product-body">
+            <span>Profesionales</span>
+            <h3>Selección para reformistas</h3>
+            <p>Presupuestos ágiles, materiales recurrentes y seguimiento claro.</p>
+            <button class="ghost-btn" data-open-form data-interest="Atención a profesionales">Soy profesional</button>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="pavimento">
+          <div class="product-media media-outdoor-1"></div>
+          <div class="product-body">
+            <span>Exterior</span>
+            <h3>Pavimento exterior antideslizante</h3>
+            <p>Terrazas, patios, entradas y zonas de tránsito exterior.</p>
+            <button class="ghost-btn" data-open-form data-interest="Pavimento exterior">Consultar exterior</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="profesionales" class="pro-section section-shell">
+      <div class="pro-panel reveal">
+        <div>
+          <p class="eyebrow">Para reformistas, constructoras e interioristas</p>
+          <h2>Un canal específico para profesionales que necesitan respuesta rápida y orden.</h2>
+          <p>La web no solo atrae particulares. También puede ordenar solicitudes profesionales, mediciones, referencias, disponibilidad y presupuestos recurrentes.</p>
+        </div>
+
+        <div class="pro-stack" aria-label="Flujo para profesionales">
+          <article>
+            <span>01</span>
+            <h3>Enviar mediciones</h3>
+            <p>Formulario claro con estancia, metros, fotos y prioridad.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Recibir orientación</h3>
+            <p>Respuesta inicial, selección de materiales y siguiente paso.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Presupuesto ordenado</h3>
+            <p>Solicitud registrada para seguimiento comercial interno.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="showroom" class="showroom section-shell">
+      <div class="section-head reveal">
+        <p class="eyebrow">Showroom físico + experiencia digital</p>
+        <h2>La visita empieza antes de cruzar la puerta.</h2>
+        <p>El usuario puede inspirarse, elegir el tipo de proyecto y llegar a la exposición con una idea mucho más concreta.</p>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-line" aria-hidden="true"></div>
+        <article>
+          <span>1</span>
+          <h3>Inspírate online</h3>
+          <p>Ambientes y categorías visuales.</p>
+        </article>
+        <article>
+          <span>2</span>
+          <h3>Cuéntanos tu reforma</h3>
+          <p>Formulario inteligente con datos útiles.</p>
+        </article>
+        <article>
+          <span>3</span>
+          <h3>Visita la exposición</h3>
+          <p>Asesoramiento y selección de materiales.</p>
+        </article>
+        <article>
+          <span>4</span>
+          <h3>Recibe presupuesto</h3>
+          <p>Seguimiento claro y próximo paso definido.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="smart-form-zone section-shell" id="contacto">
+      <div class="form-copy reveal">
+        <p class="eyebrow">Formulario inteligente demo</p>
+        <h2>Menos “quiero información” y más solicitudes útiles para presupuestar.</h2>
+        <p>Este formulario simulado recoge el tipo de estancia, urgencia, metros aproximados e interés principal. En versión real se conectaría a email, CRM o panel interno.</p>
+
+        <div class="mini-dashboard" aria-label="Indicadores demo">
+          <div><strong data-count="128">0</strong><span>solicitudes simuladas</span></div>
+          <div><strong data-count="18">0</strong><span>categorías activas</span></div>
+          <div><strong data-count="4">0</strong><span>pasos de contacto</span></div>
+        </div>
+      </div>
+
+      <form class="quote-form reveal" data-quote-form>
+        <div class="demo-label">Demo conceptual · No envía datos reales</div>
+
+        <label>
+          ¿Qué necesitas?
+          <select name="tipo" required>
+            <option value="">Selecciona una opción</option>
+            <option>Reforma de baño</option>
+            <option>Reforma de cocina</option>
+            <option>Pavimento para vivienda</option>
+            <option>Pavimento exterior</option>
+            <option>Solicitud profesional</option>
+          </select>
+        </label>
+
+        <label>
+          Estancia o proyecto
+          <input name="estancia" type="text" placeholder="Ej. baño principal, cocina, terraza..." required>
+        </label>
+
+        <div class="form-grid">
+          <label>
+            Metros aproximados
+            <input name="metros" type="number" min="1" max="999" placeholder="Ej. 12">
+          </label>
+          <label>
+            Urgencia
+            <select name="urgencia">
+              <option>Estoy comparando</option>
+              <option>En 2-4 semanas</option>
+              <option>Lo necesito pronto</option>
+              <option>Soy profesional y tengo obra activa</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          Interés principal
+          <input name="interes" type="text" data-interest-input placeholder="Ej. porcelánico, mampara, revestimiento..." required>
+        </label>
+
+        <label>
+          Contacto
+          <input name="contacto" type="text" placeholder="Teléfono o email de ejemplo" required>
+        </label>
+
+        <button class="btn btn-primary" type="submit">Preparar solicitud</button>
+        <p class="form-note">En una versión real, esto podría crear un lead en CRM, enviar aviso interno y responder al cliente automáticamente.</p>
+      </form>
+    </section>
+
+    <section class="final-cta section-shell">
+      <div class="final-card reveal">
+        <p class="eyebrow">Nueva generación de web local</p>
+        <h2>Una presencia digital que vende confianza antes de hablar de precio.</h2>
+        <a href="#contacto" class="btn btn-primary">Solicitar demo completa</a>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="result-dialog" data-dialog>
+    <button class="dialog-close" data-close-dialog aria-label="Cerrar">×</button>
+    <h2>Solicitud preparada</h2>
+    <p>Esto es una simulación. En la versión real se enviaría al equipo comercial, se guardaría en un CRM o se mostraría en un Hub interno.</p>
+    <pre data-dialog-output></pre>
+    <button class="btn btn-secondary" data-close-dialog>Entendido</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Azulejos Sol · Demo showroom digital</strong>
+      <p>Prototipo visual con datos simulados. Imágenes de referencia para presentación comercial.</p>
+    </div>
+    <a href="#contenido">Volver arriba</a>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
